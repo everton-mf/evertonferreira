@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio everton</title>
+    <style>
+        body {
+            margin: 8px;
+            background-color: whitesmoke;
+        }
+
+        .container {
+            display: grid;
+        }
+    
+        .titulo {
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-left: 300px;
+            margin-right: 300px;
+            border-radius: 5px;
+            border: 2px solid #11336D;
+            background-color: #DFDCD6;
+            text-align: center;
+            
+        }
+
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #DFDCD6;
+            border-top: 2px solid #11336D;
+            margin-top: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        ul {           
+            font-size: 16px;
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            align-items: center;
+            background-color: #DFDCD6;
+            padding: 10px 0;
+            margin: 5px;
+            border-bottom: 2px solid #11336D;
+        }
+
+        
+        a:link {
+            font-size: 20px;
+            text-decoration: none;
+            padding: 1px;        
+            border-radius: 5px;
+        }
+
+        li {
+            margin: 5px;   
+        }
+
+        a:hover {
+            background-color: #091dce;
+            color: white;
+        }
+
+        section {
+            display: flex;
+            align-items: left;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 50px;
+            
+        }
+
+        section h2 {
+            font-size: 40px;
+        }
+
+        .formacao {
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+            margin-bottom: 20px;
+            padding: 15px;
+            width: 50%;
+            font-size: 17px;
+        }
+
+        footer {
+            display: flex;
+            height: 60px;     
+        }
+
+        footer p {
+            padding-bottom: 5px;
+            color:black;
+            margin-left: 30px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html"> Sobre mim </a></li>
+            <li><a href="formacao.html"> Formação </a></li>
+            <li><a href="portfolio.html"> Portfólio </a></li>
+            <li><a href="contato.html"> Contato </a></li>
+        </ul>
+    </nav>
+    <header class="container">
+        <div class="titulo">
+            <p style="font-size: 70px;">Formação</p>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Formação academica</h2>
+            <div class="formacao">
+                <strong>Curso:</strong>
+                Técnico Eletrotecnico<br>
+                <strong>Instituição:</strong>
+                ETE Basilides de Godoy<br>
+                <strong>Periodo:</strong>
+                1999 à 2001 - Concluído<br>
+            </div>
+            <div class="formacao">
+                <strong>Curso:</strong>
+                Ánalise e Desenvolvimento de Sistemas<br>
+                <strong>Instituição:</strong>
+                Uninter<br>
+                <strong>Período:</strong>
+                Cursando - Previsão de término em 2025<br>          
+            </div>           
+        </section>
+        <section>
+            <h2>Experiências</h2>
+            <div class="formacao"> 
+                <strong>Empresa:</strong>
+                VG System (PPA Osasco)<br>
+                <strong>Periodo:</strong>
+                Abril 2002 à Dezembro de 2015<br>
+                <strong>Atividades principais:</strong>
+                Inicio como assistente técnico no departamento de manutenção, efetuando reparo corretivo e preventivo em placas
+                e motores usados para autmoatizar portas e portões, no decorrer periodo efetivado para técnico e posteriormente a 
+                lider do departamento chegando a liderar 4 pessoas.<br>
+            </div>
+            <div class="formacao">
+                <strong>Empresa:</strong>
+                Hummer sec gold<br>
+                <strong>Periodo:</strong>
+                Janeiro 2016 - atual<br>
+                <strong>Atividades principais:</strong>
+                Empresa criada por mim e um amigo, onde atuamos no setor de segurança eletronica voltada principalmente à condominios.
+                Exerço prioritariamente a função de instalação e manutenção de cameras, controles biometricos de acesso, bem como
+                a manutenção destes equipamentos.<br>
+            </div>
+        </section>        
+    </main>
+    <footer>
+        <p>Everton Martins Ferreira<br>
+            RU: 4618447
+        </p>
+    </footer> 
+</body>
+
+</html>

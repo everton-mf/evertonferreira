@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio everton</title>
+    <style>
+        body {
+            margin: 8px;
+            background-color: whitesmoke;
+        }
+
+        .container {
+            display: grid;
+        }
+    
+        .titulo {
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-left: 300px;
+            margin-right: 300px;
+            border-radius: 5px;
+            border: 2px solid #11336D;
+            background-color: #DFDCD6;
+            text-align: center;
+            
+        }
+
+
+        .imagem {
+            grid-column-start: 1;
+            grid-column-end: 3;
+
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #DFDCD6;
+            border-top: 2px solid #11336D;
+            margin-top: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        ul {           
+            font-size: 16px;
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            align-items: center;
+            background-color: #DFDCD6;
+            padding: 10px 0;
+            margin: 5px;
+            border-bottom: 2px solid #11336D;
+        }
+
+        
+        a:link {
+            font-size: 20px;
+            text-decoration: none;
+            padding: 1px;        
+            border-radius: 5px;
+        }
+
+        li {
+            margin: 5px;   
+        }
+
+        a:hover {
+            background-color: #091dce;
+            color: white;
+        }
+
+        section {
+            margin-bottom: 10px;
+        }
+
+        section p {
+            font-size: 17px;
+        }
+
+        footer {
+            display: flex;
+            height: 60px;     
+        }
+
+        footer p {
+            padding-bottom: 5px;
+            color:black;
+            margin-left: 30px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html"> Sobre mim </a></li>
+            <li><a href="formacao.html"> Formação </a></li>
+            <li><a href="portfolio.html"> Portfólio </a></li>
+            <li><a href="contato.html"> Contato </a></li>
+        </ul>
+    </nav>
+    <header class="container">
+        <div class="titulo">
+            <p style="font-size: 70px;">Sobre mim</p>
+        </div>
+
+    </header>
+    <div class="container">
+        <aside class="imagem"></br></br>
+            <img src="eu.jpg" style="max-width: 65%;">
+            <div class="infos">
+                <p><strong>Ocupação:</strong> Autonomo</p>
+                <p><strong>Data do Nascimento:</strong>22/12/1983</p>
+                <p><strong>Natural:</strong> Osasco/SP</p>
+            </div>
+        </aside>
+        <section class="principal">
+            <h1 style="font-size: 40px;margin-left: 300px;">
+                Everton Martins Ferreira
+            </h1></br>
+            <p>Olá! Muito prazer meu nome é Everton, atualmente possuo 40 anos de idade, em um relacionamento
+                sério, osaquense, filho mais velho dos 2 que meus pais tiveram. Depois de algumas décadas após
+                me formar no ensino técnico decidi encarar um novo desafio e entrar no curso de nivel superior
+                da area de Ánalise e Desenvolvimento de Sistemas. </p>
+            <p>No decorrer da minha carreira na area de eletrônica/eletrotécnica trabalhei em apenas uma empresa
+                por mais de 13 anos, onde fui transpassando por toda a mudança tecnológica ocorrida nestes pouco
+                mais de 20 anos do século 21. Após me desligar da empresa optei por montar meu próprio negócio 
+                voltado a uma area crescente e deficitaria que era a segurança eletronica em condominios, empresa
+                que mantenho até hoje, inclusive superando todos os desafios da pandemia.</p>            
+            <p>Hoje atendo mais de 20 condominios em toda area metropolitana de São Paulo, mantendo contratos 
+                de manutenção preventiva e corretiva e efetuando implantações de novos sistemas em predios novos.
+                Notando uma grande lacuna existente no quesito de softwares que auxiliam os trabalhadores que atuam
+                nas portarias e controles de acesso destes condominios decidi adquirir conhecimento na area de 
+                softwares.</p>
+            <p>Falando um pouco sobre meus principais hobbies, gosto muito de cozinhar, me espairece muito a mente
+                e me traz muita paz e felicidade quando as receitas dão certo. Não dispenso meu bom e velho 
+                futebol de final de semana (algumas vezes durante a semana também), onde consigo me desligar um 
+                pouco da realidade vivida, apesar de ter diminuido muito do tempo que pratico o esporte devido 
+                a alguns acidentes de moto.</p>
+            <p>Gosto muito de ficar longos periodos em frente a tv, onde divido meu tempo entre programas de esporte,
+                desenhos antigos, series de comédia e de terror. Sou um gamer razoavelmente viciado, possuindo
+                algumas plataformas diferentes de jogos, entre elas um simulador de caminhões.</p>
+            <p>Sempre gostei de "inventar" coisas, com o conhecimento na area de eletronica isto foi aumentando
+                e as experiências foram ficando mais evoluidas, com o conhecimento qu estou adquirindo agora 
+                na area de software acredito que minhas criações vão ficar cada vez mais completas e praticas.
+            </p>                
+        </section>
+    </div>
+    <footer>
+        <p>Everton Martins Ferreira<br>
+            RU: 4618447
+        </p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio everton</title>
+    <style>
+        body {
+            margin: 8px;
+            background-color: whitesmoke;
+        }
+
+        .container {
+            display: grid;
+        }
+    
+        .titulo {
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-left: 300px;
+            margin-right: 300px;
+            border-radius: 5px;
+            border: 2px solid #11336D;
+            background-color: #DFDCD6;
+            text-align: center;
+            
+        }
+
+
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #DFDCD6;
+            border-top: 2px solid #11336D;
+            margin-top: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        ul {           
+            font-size: 16px;
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            align-items: center;
+            background-color: #DFDCD6;
+            padding: 10px 0;
+            margin: 5px;
+            border-bottom: 2px solid #11336D;
+        }
+
+        
+        a:link {
+            font-size: 20px;
+            text-decoration: none;
+            padding: 1px;        
+            border-radius: 5px;
+        }
+
+        li {
+            margin: 5px;   
+        }
+
+        a:hover {
+            background-color: #091dce;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 50px;
+            margin-left: 550px;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 500px;
+            margin-left: 500px;
+            padding: 10px 45px;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        }
+
+        section form {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        form label {
+            margin-bottom: 6px;
+            font-size: 17px;
+
+        }
+
+        form input {
+            padding: 15px;
+            outline: none;
+            transition: all 0.5s;
+            margin-bottom: 20px;
+            border: 0;
+        }
+
+        form input:focus {
+            border-radius: 16px;
+        }
+
+        form textarea {
+            transition: all 0.5s;
+            outline: none;
+            margin-bottom: 20px;
+            padding: 15px;
+            outline: none;
+            border: 0;
+        }
+
+        form textarea:focus {
+            border-radius: 16px;
+
+        }
+
+        form button {
+            padding: 15px;
+            transition: all 1s;
+            cursor: pointer;
+            background-color: white;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border-color: #11336D;
+            font-size: 15px;
+        }
+
+        form button:hover {
+            background-color: #11336D;
+            color: white;
+        }
+
+        footer {
+            display: flex;
+            height: 60px;     
+        }
+
+        footer p {
+            padding-bottom: 5px;
+            color:black;
+            margin-left: 30px;
+            
+        }   
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html"> Sobre mim </a></li>
+            <li><a href="formacao.html"> Formação </a></li>
+            <li><a href="portfolio.html"> Portfólio </a></li>
+            <li><a href="contato.html"> Contato </a></li>
+        </ul>
+    </nav>
+    <header class="container">
+        <div class="titulo">
+            <p style="font-size: 70px;">Contato</p>
+        </div>
+        <h1>Preencha o formulário:</h1>
+    </header>
+    <section>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite o seu nome" required>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Digite o seu email" required>
+            <label>Mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+            <input type="hidden" name="accessKey" value="cb291944-28f4-4c04-a7e5-6f83435d4a85">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">
+        </form>
+    </section>
+    <footer>
+        <p>Everton Martins Ferreira<br>
+            RU: 4618447
+        </p>
+    </footer>  
+</body>
+</html>

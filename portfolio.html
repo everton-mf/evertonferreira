@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio everton</title>
+    <style>
+        body {
+            margin: 8px;
+            background-color: whitesmoke;
+        }
+
+        .container {
+            display: grid;
+        }
+    
+        .titulo {
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-left: 300px;
+            margin-right: 300px;
+            border-radius: 5px;
+            border: 2px solid #11336D;
+            background-color: #DFDCD6;
+            text-align: center;
+            
+        }
+
+
+        .imagem {
+            grid-column-start: 1;
+            grid-column-end: 3;
+
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #DFDCD6;
+            border-top: 2px solid #11336D;
+            margin-top: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        ul {           
+            font-size: 16px;
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            align-items: center;
+            background-color: #DFDCD6;
+            padding: 10px 0;
+            margin: 5px;
+            border-bottom: 2px solid #11336D;
+        }
+
+        
+        a:link {
+            font-size: 20px;
+            text-decoration: none;
+            padding: 1px;        
+            border-radius: 5px;
+        }
+
+        li {
+            margin: 5px;   
+        }
+
+        a:hover {
+            background-color: #091dce;
+            color: white;
+        }
+
+        footer {
+            display: flex;
+            height: 60px;     
+        }
+
+        footer p {
+            padding-bottom: 5px;
+            color:black;
+            margin-left: 30px;            
+        }
+
+        section {
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        section h1 {
+            font-size: 50px;
+        }
+
+        .projeto {
+            display: flex;
+            flex-direction: column;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+            padding: 10px;
+            font-size: 20px;
+            align-items: center;
+            justify-content: center;
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html"> Sobre mim </a></li>
+            <li><a href="formacao.html"> Formação </a></li>
+            <li><a href="portfolio.html"> Portfólio </a></li>
+            <li><a href="contato.html"> Contato </a></li>
+        </ul>
+    </nav>
+    <header class="container">
+        <div class="titulo">
+            <p style="font-size: 70px;">Portfólio</p>
+        </div>
+    </header>
+        <section> 
+            <h1>Projetos</h1><br>
+            <div class="projeto">
+                <h2>Clausura automatizada</h2>
+                <video width="30%" height="400px" controls="controls">
+                    <source src="teste2.mp4" type="video/mp4">
+                </video>
+                <p>Projeto feito automatizando todo o processo de abertura e fechamento dos
+                    portões, usando sensores de posicionamento e leitor facial.
+                </p>
+            </div>         
+        </section>
+    </div>
+    <footer>
+        <p>Everton Martins Ferreira<br>
+            RU: 4618447
+        </p>
+    </footer>
+</body>
+
+</html>
